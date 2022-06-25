@@ -7,9 +7,10 @@ LiquidCrystal lcd = LiquidCrystal(7,6,5,4,3,2);
 OneWire oneWire(ONE_WIRE_BUS);
 DallasTemperature sensors(&oneWire);
 
-  // Pins 
+  // Temperature trigger 
 int trigger = 40;
   
+ // Pins
 int greenLed = 2;
 int redLed = 4;
 int fan = 10;
